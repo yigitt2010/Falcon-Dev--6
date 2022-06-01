@@ -1,0 +1,2 @@
+public class  SoqlDemo2 {
+    
