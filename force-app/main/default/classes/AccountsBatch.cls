@@ -2,7 +2,7 @@ public  class AccountsBatch  implements Database.Batchable<SObject>{
     public Database.QueryLocator start(Database.BatchableContext bc) {
         Database.QueryLocator ql = Database.getQueryLocator([select ID, description from account]);
         return ql;
-
+//chance github see some changes
     }
     public void execute(Database.BatchableContext bc, List<Account> scope){
         List<Account> updateAccounts = new List<Account>();
