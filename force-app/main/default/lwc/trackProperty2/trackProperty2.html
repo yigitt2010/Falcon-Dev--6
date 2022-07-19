@@ -1,0 +1,14 @@
+<template>
+    <lightning-card title="TRACK PROPERTY 2">
+        <div class="slds-var-m-around_medium">
+            <lightning-input
+                type="text"
+                label="Enter your organization name"
+                value={detail.company}
+                onkeyup={handleChange}>
+            </lightning-input>
+            <div class="slds-var-m-top_small">Hey, I work for  {detail.company}</div>
+        </div>
+    </lightning-card>
+    
+</template>
